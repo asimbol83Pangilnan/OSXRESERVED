@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "workingDirectory": "${workspaceFolder}\\Home",
+            "proPath": [
+                "c:\\temp",
+                "${workspaceFolder}"
+            ],
+            "dlc": "C:/Progress/OpenEdge", //optional override
+            "proPathMode": "append", // overwrite, prepend
+            "parameterFiles": [ // -pf
+                "default.pf"
+            ],
+            "startupProcedure" : "${workspaceFolder}/vsc-oe-startup.p"
+        }
+        {
+            "type": "android-webview",
+            "request": "attach",
+            "name": "Attach to Android WebView",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "android-webview",
+            "request": "attach",
+            "name": "Attach to Android WebView",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
